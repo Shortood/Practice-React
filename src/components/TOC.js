@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
 class TOC extends Component {
-  shouldComponentUpdate(newProps, newState) {
-    if (this.props.date === newProps.date) return false;
-    else return true;
-  }
+  // shouldComponentUpdate(newProps, newState) {
+  //   if (this.props.date === newProps.date) return false;
+  //   else return true;
+  // }
   render() {
     var lists = [];
     var data = this.props.data;
